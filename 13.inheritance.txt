@@ -1,0 +1,67 @@
+#single level inheritance
+ class parent:
+	counter=0
+	def __init__(self):
+		print("class parent")
+	def parentfuc(self):
+		print("parent class called")
+	def setc(self,num):
+		parent.counter=num
+	def showc(self):
+		print(str(parent.counter))
+
+class child(parent):  #parent class is inherited in child class
+	def __init__(self):
+		print("Child class being initialized")
+	def childfuc(self):
+		print("child fuc is called")
+
+ch=child() #object creation
+ch.childfuc() #function calling
+
+#multiple inheritance
+class parent:
+	counter=0
+	def __init__(self):
+		print("class parent")
+	def parentfuc(self):
+		print("parent class called")
+	def setc(self,num):
+		parent.counter=num
+	def showc(self):
+		print(str(parent.counter))
+class child:
+	def __init__(self):
+		print("Child class being initialized")
+	def childfuc(self):
+		print("child fuc is called")
+class grandchild(parent,child): #both parent and child class is inherited
+	def __init__(self):
+		print("huray")
+gr=grandchild() #object creation
+gr.parentfuc() #function calling
+
+#multilevel inheritance
+class parent:
+	counter=0
+	def __init__(self):
+		print("class parent")
+	def parentfuc(self):
+		print("parent class called")
+	def setc(self,num):
+		parent.counter=num
+	def showc(self):
+		print(str(parent.counter))
+
+class child(parent): #parent class is inherited in child class
+	def __init__(self):
+		print("Child class being initialized")
+	def childfuc(self):
+		print("child fuc is called")
+
+		
+ class grandchild(child): #child class is inherited here
+	def __init__(self):
+		print("huray")
+gr=grandchild()
+gr.parentfuc()

@@ -1,0 +1,8 @@
+ class student:
+	def __init__(self,name,grade):
+		self.name=name
+		self.grade=grade
+	def ho(self): #self is used as way to reference
+		print("answer="+self.name+"you="+self.grade)
+stu=student("nishant","saini")
+stu.ho() #function calling

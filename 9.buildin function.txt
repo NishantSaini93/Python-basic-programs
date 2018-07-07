@@ -1,0 +1,37 @@
+abs(-98) #this is absolute function which return absolute value(means postive value)
+abs(8769-68767897)
+
+bool(0)#bool fuction return false when there is 0 or none
+bool(None)
+#everything else it return true
+
+t="nishant"
+dir(t) # gives all the funtion which can be used on t
+
+help(t.upper) #this will tell us what it do ,the funtion "upper" and how to use
+
+eval("5*4") 
+""" here it evaluates the expression and give the 
+output ad 20"""
+
+
+program="""print("da")
+print("dsda")"""
+exec(program)# it is used to run more complex command 
+
+age =int(input("input your age:"))#input to have input ,"int" to convert string type to integer type
+input your age:32
+if age>2:
+          print("hello")
+
+
+int("22")# it convert string to int
+float("3424.2432")# it conver string to float
+str(age)# int or float to string
+
+list1=[12,43,67,86]
+sum(list1)#adds items in list and give output 
+208
+
+
+

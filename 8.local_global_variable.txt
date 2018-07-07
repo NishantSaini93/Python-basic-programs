@@ -1,0 +1,5 @@
+t=10  #global variable
+def mul(n1,n2):
+	t=n1*n2  #local variable you cant use it outside
+	return t
+mul(22,33)

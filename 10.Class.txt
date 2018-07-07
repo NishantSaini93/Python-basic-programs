@@ -1,0 +1,5 @@
+class stu: #class name is stu
+	def __init__(self,name): #self is mandatory here
+		self.name=name
+st=stu("jdaskjd") #st is creation of object
+st.name # accessing name 

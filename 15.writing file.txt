@@ -1,0 +1,5 @@
+file1=open("C:\Users\Nishant Saini\Desktop\python.txt","w")
+file1.write("I have entered in th file") # this overwrite the file with text in write function
+file1.close()
+file1=open("C:\Users\Nishant Saini\Desktop\python.txt","r")
+file1.read()

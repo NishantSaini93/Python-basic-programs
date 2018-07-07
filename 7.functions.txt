@@ -1,0 +1,10 @@
+def prt(): #function
+	for i in range(0,5):
+		print("hulk")
+prt()    #used to call function
+
+
+#another function
+def adder(num1,num2):
+	print(num1+num2)
+adder(22,1)

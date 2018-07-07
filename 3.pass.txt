@@ -1,0 +1,5 @@
+for i in "python":
+	if i=='h':
+		pass  #this is used as filler when you don't want to do anything in code
+	else:
+		print(i)

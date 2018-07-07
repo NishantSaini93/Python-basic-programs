@@ -1,0 +1,11 @@
+# if error happen in try then except is run 
+try:
+	if name=="prashant":
+		print(hi)
+except:
+	print("error occured")
+
+"""this will help you in building robust application and this 
+how you do multiline 
+comment""" 
+

@@ -1,0 +1,8 @@
+>>> file1=open("C:python1.txt","w")
+>>> file2=open("C:\Users\Nishant Saini\Desktop\python.txt","r")
+>>> file1.write(file2.read())# this will copy content of file2 to file1
+
+>>> file1=open("C:python1.txt","r")
+>>> file1.seek(0,0)
+>>> file1.read()
+

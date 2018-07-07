@@ -1,0 +1,24 @@
+#program to access the site online for stock price
+import re
+import urllib.request
+
+url="https://www.google.com/finance?q="
+
+stock=input("Enter your stock: ")
+url=url+stock
+data=urllib.request.urlopen(url).read() #opens the url and read it
+
+data1=data.decode("utf-8") #decode into bytes
+
+m=re.search('meta itemprop="price"',data1)
+start=m.start()
+end=start+50
+newString=data1[start:end]
+m=re.search("content=",newString)
+start=m.end()
+newStr=newString[start:]
+m=re.search("/",newStr)
+start=0
+end=m.end()-3
+final=newStr[0:end]
+print("the value of "+stock+" is:"+final)

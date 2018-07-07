@@ -1,0 +1,7 @@
+#this is how you can write long condition
+if aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\
+   ==\
+   bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:
+	print("valid")
+else:
+	print("invalid")

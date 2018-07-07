@@ -1,0 +1,34 @@
+ import random # here we imported "random" library
+print(random.randint(0,100))#randint produces the random number in between given ranges
+
+print(random.randint(0,100))
+
+print(random.randint(0,100))
+
+#guessing game
+import random
+
+number=random.randint(0,10)
+print(number)
+for i in range(0,100):
+    num=input("input your choice=")
+    if num<number:
+        print("enter higher number")
+        continue
+    elif num>number:
+        print("enter lower number")
+        continue
+    elif num==number:
+        print("you are right")
+
+#if you want to use radom on list
+import random
+food=["pizza","pasta","maggi"]
+print(random.choice(food)) #will print random food present in list
+
+#shuffles the items
+import random
+food=["pizza","maggi","pasta"]
+print(random.shuffle(food))
+print(food)
+

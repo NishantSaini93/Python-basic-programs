@@ -1,0 +1,13 @@
+import sys
+var=sys.stdin.readline(12)#read upto 12 character
+print(var)
+
+
+ import sys
+var=sys.stdout.write(12)#output upto 12 character
+print(var)   
+
+import sys
+print(sys.version) #version of your system
+
+   

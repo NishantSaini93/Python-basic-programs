@@ -1,0 +1,13 @@
+file1=open("C:\Users\Nishant Saini\Desktop\python.txt","a")
+file1.write("this is appending the file") #this will append with existing file
+file1.close()
+file1=open("C:\Users\Nishant Saini\Desktop\python.txt","r")
+file1.read()
+
+"""mode a+ uses for both read and append"""
+file1=open("C:\Users\Nishant Saini\Desktop\python.txt","a+")
+file1.write("i am human")
+file1.seek(0,0)
+file1.read()
+
+

@@ -1,0 +1,55 @@
+#turtle is GUI module 
+#here we are making square
+ import turtle
+ t=turtle.Pen() #to open gui with arow
+ t.forward(50)#move forward
+ t.left(90)#move cursor to 90 degrees
+ t.forward(50)
+ t.left(90)
+ t.forward(50)
+ t.left(90)
+ t.forward(50)
+ 
+
+#it is for octagon
+import turtle
+ t=turtle.Pen()
+ for i in range(0,8):
+                 t.forward(50)
+	t.left(45)
+
+#down and up for pen 
+ import turtle
+ t=turtle.Pen()
+ for i in range(0,40):
+	t.forward(100)
+	t.left(170)
+
+	
+ t.up()
+ t.left(180)
+ t.forward(200)
+ t.down()
+ for i in range(0,40):
+	t.forward(100)
+	t.left(145)
+
+#to fill color	
+ t.color(0,0,1)
+ t.fill()
+ t.begin_fill()
+ for i in range(0,40):
+	t.forward(100)
+	t.left(145)
+
+	
+ t.end_fill()
+
+
+#function in turtle
+import turtle
+t=turtle.Pen()
+ def sq(side):
+	for i in range(0,5):
+		t.forward(side)
+		t.left(90)

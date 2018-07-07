@@ -1,0 +1,15 @@
+#used to print part of string
+ import re
+ strn="the night is cold"
+ re.search("night",strn)
+
+ m=re.search("night",strn)
+ start=m.start()
+ end=start+5
+ print(start)
+
+ print(end)
+
+ strn[start:end]
+'night'
+ 

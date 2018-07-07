@@ -1,0 +1,14 @@
+class stu:
+	def __init__(self,name,age):
+		self.name=name
+		self.age=age
+st1=stu("sadd",32)
+hasattr(st1,"age") #it will check whether the attribute "age" is there in object or not and result in true and false 
+
+
+#you can set attribute like 
+setattr(st1,"gra","323")# this will set attribute gra to object st1
+hasattr(st1,"gra")#it will return true
+
+getattr(st1,"age")# get the value of grade
+delattr(st1,"age")#delete the attribute age 

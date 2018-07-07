@@ -1,0 +1,8 @@
+cout=0
+while cout<10:
+	if cout==4:
+		cout=cout+1
+		continue     #this skips all the statements next to it in the loop and passes again control to loop
+	else:
+		print(cout)
+                cout=cout+1
